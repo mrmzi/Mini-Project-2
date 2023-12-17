@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+ height: 100px;
+ position: relative;
+}
+.header .left{
+height: 100%;
+width: 50%; 
+left: 0;
+position: absolute; 
+
+   
+}
+.header .right{
+height: 100%;
+width: 50%;   
+right: 0;
+position: absolute;
+    
+}
+.header .left .left{
+position: absolute;
+left: 0;    
+width: 15%;
+height: 100%;    
+}
+.header .left .right{
+position: absolute;
+right: 0;    
+   
+width: 85%;
+height: 100%;
+
+}
+.header .right .left{
+    width:70%;
+    height: 100%;
+    right: 0px;
+    text-align: center;
+}
+.header .right .right p{
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 45px;
+    margin-left: 20px;
+}
+.header .right .right a:link{
+text-decoration: none;
+color: black;
+background-color:#04aa6d;
+border-radius:30px;
+padding: 20px 50px;    
+margin-left: 30px;
+font-size: 18px;
+}
+.Asli{
+height: 700px;   
+position: relative;  
+background-color: #1d2a35 ;
+    
+}
+.Asli .left{
+position: absolute;
+left: 0;
+width: 50%;
+height: 100%;
+color: #fff;    
+}
+.Asli .right{
+position: absolute;
+right: 0;
+width: 50%;
+height: 100%;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding-top:50px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+
+.Asli .left h1{
+    text-align: center;
+    font-size: 120px;
+    margin-top:150px;
+}
+.Asli .left p{
+    text-align: center;
+    font-size: 20px;
+}
+.Asli .left a{
+    display: block;
+    text-align:center;
+    font-size: 18px;
+    background-color: #fff;
+    color: black;
+    width: 150px;
+    margin: auto;
+    margin-top:23px;
+    padding: 20px;
+    border-radius: 90px;
+}
+.Asli .right .center{
+width: 500px;
+height: 350px;
+background-color: whitesmoke;
+margin: auto;
+margin-top: 150px ;
+    border-radius: 10px;
+}
+.Asli .right .center p{
+    font-size: 18px;
+    padding: 15px;
+}
+.Asli .right .center img{
+   padding-right: 5px;
+    border-left:5px solid green; 
+}
+.Asli .right .center a{
+   display: block;
+    text-decoration: none;
+    color: white;
+    background-color:#04aa6d;
+    width: 130px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
